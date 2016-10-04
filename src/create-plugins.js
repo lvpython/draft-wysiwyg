@@ -56,7 +56,8 @@ export default ({ handleUpload, handleDefaultData, plugins = ()=>{}, toolbar = {
     __toolbarHandler: {
       add: props => console.log('Add toolbar', props),
       remove: props => console.log('Remove toolbar', props),
-    }, textActions: [...[{
+    }, inlineStyles: [],
+    textActions: [...[{
       button: <span>H1</span>,
       key: 'H1',
       label: 'Header 1',
